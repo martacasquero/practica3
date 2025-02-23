@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego de Preguntas</h1>
+        <div id="question-container">
+            <div id="question">Pregunta</div>
+            <div class="answer-buttons" id="answer-buttons">
+                <button class="btn">Respuesta 1</button>
+                <button class="btn">Respuesta 2</button>
+                <button class="btn">Respuesta 3</button>
+                <button class="btn">Respuesta 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="next-btn btn">Siguiente</button>
+        </div>
+        <div class="score-container">
+            <p>Puntuación: <span id="score">0</span></p>
+            <p>High Score: <span id="high-score">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
